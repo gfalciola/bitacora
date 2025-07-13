@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora - Banda de Rock</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <div class="video-container">
+                <iframe 
+                    id="youtube-video"
+                    src="https://www.youtube.com/embed/T2dr13dX5Vo?autoplay=1&mute=1&loop=1&playlist=T2dr13dX5Vo&controls=1&showinfo=0&rel=0&modestbranding=1" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+            <div class="content">
+                <div class="logo-container">
+                    <img src="Logo blanco fondo negro.jpg" alt="Bitácora" class="band-logo">
+                </div>
+                <p class="band-description">Música que cuenta historias</p>
+                
+                <div class="audio-controls">
+                    <button id="unmute-btn" class="audio-btn">
+                        <span>🔇 Activar Audio</span>
+                    </button>
+                    <p class="audio-note">Haz clic para escuchar la música</p>
+                </div>
+                
+                <div class="cta-section">
+                    <a href="https://linktr.ee/bitacora.rock" target="_blank" class="cta-button">
+                        <span>Descubre Nuestra Música</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script-with-audio.js"></script>
+</body>
+</html> 
